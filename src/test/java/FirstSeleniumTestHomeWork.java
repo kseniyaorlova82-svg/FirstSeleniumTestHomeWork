@@ -10,27 +10,22 @@ public class FirstSeleniumTestHomeWork {
 
     @BeforeMethod
     public void setUp() {
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
+      driver = new ChromeDriver();
+     driver.manage().window().maximize();
     }
 
     @Test
     public void firstSeleniumTestHomework() {
 
-        // Открываем Zalando
-        driver.get("https://www.zalando.de");
+     driver.get("https://www.zalando.de");
 
-        // Открываем Netflix
-        driver.get("https://www.netflix.com");
+    driver.get("https://www.netflix.com");
 
-        // Возвращаемся назад на Zalando
-        driver.navigate().back();
+   driver.navigate().back();
 
-        // Переходим вперед на Netflix
-        driver.navigate().forward();
+   driver.navigate().forward();
 
-        // Обновляем страницу Netflix
-        driver.navigate().refresh();
+     driver.navigate().refresh();
     }
 
     @AfterMethod
