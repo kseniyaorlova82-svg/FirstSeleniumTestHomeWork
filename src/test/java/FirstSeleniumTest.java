@@ -11,8 +11,8 @@ public class FirstSeleniumTest {
     public void setUp(){
         driver = new ChromeDriver();
         driver.get("https://www.google.com/");//without history
-        //driver.navigate().to("https://www.google.com");//with history
-driver.navigate().back();//one page back
+//driver.navigate().to("https://www.google.com");//with history
+//driver.navigate().back();//one page back
 //driver.navigate().forward();//one page forward
 //driver.navigate().refresh();//refresh=reload page
     }
